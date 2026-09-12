@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobobo Confeiteira — Bolos e doces por encomenda</title>
+  <meta name="description" content="Bolos e doces artesanais por encomenda. Cada docinho feito à mão, com carinho, para tornar sua festa mais doce.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topo">
+    <div class="faixa">
+      <a href="#inicio" class="marca">Sobobo <span>Confeiteira</span></a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-botao" aria-label="Abrir menu de navegação">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="navegacao" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <section id="inicio" class="hero">
+      <div class="faixa hero-grade">
+        <div class="hero-texto">
+          <h1>Doces que carregam cuidado em cada detalhe</h1>
+          <p class="hero-descricao">Bolos e docinhos feitos à mão, um a um, para aniversários, casamentos e qualquer data que mereça um pouco mais de doçura.</p>
+          <a href="#contato" class="botao botao-primario">Fazer encomenda</a>
+        </div>
+        <div class="hero-imagem">
+          <img src="assets/img/brigadeiro-doce-leite.webp" alt="Fileiras de brigadeiros gourmet de doce de leite, finalizados com um fio de calda e cristais de açúcar" width="1292" height="2296">
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" aria-labelledby="sobre-titulo" class="sobre">
+      <div class="faixa sobre-grade">
+        <div class="sobre-imagem">
+          <img src="assets/img/bolo-chocolate.webp" alt="Bolo retangular coberto com chantininho de chocolate e raspas de chocolate meio amargo por cima" width="1400" height="787">
+        </div>
+        <div class="sobre-texto">
+          <h2 id="sobre-titulo">Sobre a Sobobo</h2>
+          <p>A Sobobo Confeiteira nasceu na cozinha de casa, entre testes de receita e pedidos de amigos e vizinhos. Hoje, cada encomenda ainda passa pelas mesmas mãos: sem produção em série, sem atalho — só ingredientes bons e atenção ao que cada cliente pediu.</p>
+          <p>O cardápio muda com as estações e com o que dá vontade de criar, mas o compromisso é sempre o mesmo: entregar um doce bonito por fora e ainda melhor por dentro.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="produtos" aria-labelledby="produtos-titulo" class="produtos">
+      <div class="faixa">
+        <h2 id="produtos-titulo">O que a Sobobo faz</h2>
+        <div class="cartoes">
+
+          <article class="cartao">
+            <h3>Bolos personalizados</h3>
+            <p>Bolos para aniversário, chá revelação ou qualquer comemoração, com recheio, cobertura e mensagem escolhidos junto com você.</p>
+          </article>
+
+          <article class="cartao">
+            <h3>Docinhos gourmet</h3>
+            <p>Brigadeiros, bombons trufados e frutas no chocolate, vendidos por caixa ou em quantidade para festas de qualquer tamanho.</p>
+          </article>
+
+          <article class="cartao">
+            <h3>Kits de festa</h3>
+            <p>Combinação de bolo e mesa de doces pensada para o seu evento, com sugestão de sabores e quantidades conforme o número de convidados.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" aria-labelledby="galeria-titulo" class="galeria">
+      <div class="faixa">
+        <h2 id="galeria-titulo">Alguns doces que já saíram daqui</h2>
+        <div class="galeria-grade">
+
+          <figure>
+            <img src="assets/img/bombom-pistache.webp" alt="Bombons trufados em casquinha de chocolate meio amargo, cobertos com pistache picado" loading="lazy" width="1292" height="2296">
+          </figure>
+
+          <figure>
+            <img src="assets/img/uva-chocolate-branco.webp" alt="Uvas envoltas em chocolate branco, servidas em forminhas em formato de coração" loading="lazy" width="1292" height="2296">
+          </figure>
+
+          <figure>
+            <img src="assets/img/bolo-festa-branco.webp" alt="Bolo de aniversário branco decorado com laços azuis e nome personalizado em confeitagem" loading="lazy" width="1292" height="2296">
+          </figure>
+
+          <figure>
+            <img src="assets/img/brigadeiro-doce-leite.webp" alt="Brigadeiros de doce de leite passados em açúcar cristal, finalizados com calda" loading="lazy" width="1292" height="2296">
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" aria-labelledby="contato-titulo" class="contato">
+      <div class="faixa contato-grade">
+        <div>
+          <h2 id="contato-titulo">Vamos combinar sua encomenda?</h2>
+          <p>Me chama e conta a data, a quantidade de convidados e o que você imaginou. A partir disso eu monto uma sugestão de sabores e valores.</p>
+        </div>
+        <ul class="contato-lista">
+          <li><a href="https://wa.me/5500000000000">WhatsApp: (00) 00000-0000</a></li>
+          <li><a href="mailto:contato@soboboconfeiteira.com.br">contato@soboboconfeiteira.com.br</a></li>
+          <li><a href="https://instagram.com/soboboconfeiteira">@soboboconfeiteira</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="faixa">
+      <p>Sobobo Confeiteira — feito à mão, encomenda por encomenda.</p>
+      <p>&copy; 2026 Sobobo Confeiteira. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
