@@ -52,6 +52,7 @@ Confirme/substitua no `index.html`:
 ## Publicação no GitHub Pages
 
 Envie **todo o conteúdo desta pasta** para o repositório, mantendo a estrutura de diretórios. O arquivo `index.html` deve ficar na raiz publicada.
+remove: README antigo
 
 Depois, ative GitHub Pages em **Settings → Pages** e escolha a branch/pasta usada pelo repositório.
 
