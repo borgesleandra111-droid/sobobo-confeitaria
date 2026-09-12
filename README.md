@@ -4,11 +4,11 @@ Landing Page responsiva criada para a Sobobo Confeiteira, negócio de bolos e do
 
 ## 🌐 Site publicado
 
-[Cole aqui o link gerado pelo GitHub Pages]
+https://borgesleandra111-droid.github.io/sobobo-confeitaria/
 
 ## 📦 Repositório
 
-[Cole aqui o link do repositório no GitHub]
+https://github.com/borgesleandra111-droid/sobobo-confeitaria
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -40,6 +40,7 @@ A Claude (Anthropic) foi utilizada como apoio durante o desenvolvimento deste pr
 - Estruturação do HTML semântico (header, main, section, article, footer) a partir dos requisitos do desafio.
 - Definição da paleta de cores (tons pastel de rosa e lilás) e da combinação tipográfica do projeto.
 - Escrita do CSS externo responsivo, incluindo o menu mobile feito apenas com HTML/CSS (sem JavaScript).
+- docs: adiciona links do site e do repositório
 - Redação dos textos de cada seção da página.
 - Organização e compressão das imagens usadas na galeria.
 
